@@ -1,19 +1,19 @@
-DevOps Training Bootcamp Self Contained Toolset VM
+#DevOps Training Bootcamp Self Contained Toolset VM
 
 
-Prerequisites
+Prerequisites:
 - Install git
 - Install Vagrant
 - Install Virtualbox
-    - Disable account authentication for virtualbox web server 'VBoxManage setproperty websrvauthlibrary null'
-    - Run Virtualbox web service 'vboxwebsrv -H 0.0.0.0'
-- Clone repository to local directory 'git clone https://github.com/davlloyd/devops-training-vagrant.git'
+    - Disable account authentication for virtualbox web server '*VBoxManage setproperty websrvauthlibrary null*'
+    - Run Virtualbox web service '*vboxwebsrv -H 0.0.0.0*'
+- Clone repository to local directory '*git clone https://github.com/davlloyd/devops-training-vagrant.git*'
 
 
-Get it Running
+Get it Running:
 - Change into directory repo was cloned into
-- run command 'vagrant up'
-- Access guest via 'vagrant ssh'
+- run command '*vagrant up*'
+- Access guest via '*vagrant ssh*'
 
 Further details:
 - port 5000 is redirected as 5000 on localhost for script testing
