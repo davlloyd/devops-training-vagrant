@@ -9,12 +9,15 @@ BLUE = "#0099FF"
 GREEN = "#33CC33"
 
 COLOR = BLUE
-counter = 0 
 
 
 @app.route('/')
 def hello():
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 1a6919627a1f63f8710e3362b42734290a464505
     return """
     <html>
     <body bgcolor="{}">
@@ -23,7 +26,10 @@ def hello():
     {}</br>
     
     <br>
+<<<<<<< HEAD
     
+=======
+>>>>>>> 1a6919627a1f63f8710e3362b42734290a464505
 
     </body>
     </html>
