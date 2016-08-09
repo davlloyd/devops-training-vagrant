@@ -13,11 +13,6 @@ COLOR = BLUE
 
 @app.route('/')
 def hello():
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> 1a6919627a1f63f8710e3362b42734290a464505
     return """
     <html>
     <body bgcolor="{}">
@@ -26,11 +21,6 @@ def hello():
     {}</br>
     
     <br>
-<<<<<<< HEAD
-    
-=======
->>>>>>> 1a6919627a1f63f8710e3362b42734290a464505
-
     </body>
     </html>
     """.format(COLOR,my_uuid)
