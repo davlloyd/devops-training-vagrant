@@ -20,7 +20,7 @@ sudo apt-get -y install docker-engine
 
 # Get the service running and configured
 sudo groupadd docker
-sudo usermod -aG docker vagrant
+sudo usermod -aG docker ubuntu vagrant
 sudo service docker start
 
 # Docker machine installation

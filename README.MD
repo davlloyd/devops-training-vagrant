@@ -22,7 +22,7 @@
 - Text editors are installed in guest (VIM and Nano) but you can edit/create scripts via the <clonedir>/work directory which is mounted as /vagrant/work in the guest
 
 
-###So What Can It Do?:
+###So What Is In It?:
 As part of the VM the following is installed and configured
 - git cli
 - Python and required modules
@@ -32,5 +32,9 @@ As part of the VM the following is installed and configured
     - RexRay (container storage volume driver)
 - VIM and Nano text editors
 - Pivotal CloudFoundry cli (CF)
+
+
+### Notes
+As part of the Vagrant install it will attempt to start the RexRay service as the last step. In this demo setup the RexRay service 
 
 

@@ -14,12 +14,6 @@ counter = 0
 
 @app.route('/')
 def hello():
-    global counter
-    counter += 1
-    if counter %2 == 0:
-        COLOR = GREEN
-    else:
-        COLOR = BLUE
     
     return """
     <html>
@@ -30,14 +24,10 @@ def hello():
     
     <br>
     
-    Page Hit Count {}
-
-    </center>
-    <br>
 
     </body>
     </html>
-    """.format(COLOR,my_uuid,counter)
+    """.format(COLOR,my_uuid)
 
 if __name__ == "__main__":
 	app.run(debug=True,host='0.0.0.0', port=int(os.getenv('PORT', '5000')))
